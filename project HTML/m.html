@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style header */
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Style main content */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style menu categories */
+        .menu-category {
+            margin-bottom: 40px;
+        }
+
+        .menu-category h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        /* Style individual menu items */
+        .menu-item {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-item:hover {
+            background-color: #eaeaea;
+        }
+
+        .menu-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .menu-item p {
+            color: #666;
+        }
+
+        .menu-item span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+    </header>
+    <main>
+        <section class="menu-category">
+            <h2>Indian Cuisine</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Butter Chicken</h3>
+                    <p>Tender chicken cooked in a rich and creamy tomato-based sauce.</p>
+                    <span>₹300</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Paneer Tikka</h3>
+                    <p>Chunks of paneer marinated in spices and grilled to perfection.</p>
+                    <span>₹250</span>
+                </div>
+                <!-- Add more Indian dishes here -->
+                <div class="menu-item">
+                    <h3>Rogan Josh</h3>
+                    <p>Traditional Indian lamb curry cooked with aromatic spices.</p>
+                    <span>₹350</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Biryani</h3>
+                    <p>Fragrant rice cooked with chicken and spices.</p>
+                    <span>₹280</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pav Bhaji</h3>
+                    <p>Spicy mashed vegetable curry served with buttered bread rolls.</p>
+                    <span>₹200</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Samosa Chaat</h3>
+                    <p>Crispy samosas topped with spicy chutneys, yogurt, and chaat masala.</p>
+                    <span>₹180</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Masala Dosa</h3>
+                    <p>Thin crepe made from fermented rice and lentil batter, filled with spiced potatoes.</p>
+                    <span>₹220</span>
+                </div>
+                <!-- Additional Indian dishes -->
+                <div class="menu-item">
+                    <h3>Palak Paneer</h3>
+                    <p>Creamy spinach curry with paneer cubes.</p>
+                    <span>₹270</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Curry</h3>
+                    <p>Spicy chicken curry cooked in a tomato-based sauce.</p>
+                    <span>₹320</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Tandoori Roti</h3>
+                    <p>Whole wheat bread baked in a tandoor oven.</p>
+                    <span>₹30</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Gulab Jamun</h3>
+                    <p>Deep-fried dough balls soaked in sugar syrup.</p>
+                    <span>₹50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chicken Tikka Masala</h3>
+                    <p>Chicken tikka cooked in a spiced tomato-based sauce.</p>
+                    <span>₹320</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="menu-category">
+            <h2>Italian Delights</h2>
+            <div class="menu-items">
+                <!-- Add Italian dishes here -->
+                <div class="menu-item">
+                    <h3>Lasagna</h3>
+                    <p>Layers of pasta, meat, and cheese baked in a tomato-based sauce.</p>
+                    <span>₹350</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Calzone</h3>
+                    <p>Folded pizza filled with cheese, meats, and vegetables.</p>
+                    <span>₹300</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Risotto</h3>
+                    <p>Italian rice dish cooked with broth until creamy.</p>
+                    <span>₹280</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Gnocchi</h3>
+                    <p>Soft dough dumplings made from potato, flour, and egg.</p>
+                    <span>₹320</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Add more sections for other cuisines -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* Soft White background */
+    color: #333333; /* Charcoal text color */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333333; /* Dark Charcoal header */
+    color: #ffffff; /* White text color */
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #f4f4f4 3px solid;
+}
+
+header h1 {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+}
+
+.showcase img,
+.specials img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.showcase,
+.specials {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.showcase h2,
+.specials h2 {
+    margin-top: 10px;
+}
+
+.highlight {
+    color: #ff7f50; /* Coral highlight color */
+}
+
+footer {
+    background: #333333; /* Dark Charcoal footer */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.reservation-form {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form input[type="tel"],
+.reservation-form input[type="date"],
+.reservation-form input[type="time"],
+.reservation-form input[type="number"],
+.reservation-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-form input[type="submit"] {
+    background-color: #008080; /* Teal submit button */
+    color: #ffffff; /* White text color */
+    cursor: pointer;
+}
+
+.reservation-form input[type="submit"]:hover {
+    background-color: #005355; /* Darker Teal on hover */
+}
