@@ -82,6 +82,15 @@ background-color: #45a049;
             </select>
             <input type="submit" value="Submit Reservation">
         </form>
+         <p id="confirmationMessage" style="display: none; text-align: center;">Your reservation is submitted!</p>
     </div>
+    <script>
+        document.getElementById("reservationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            // You can add AJAX request here to submit form data to the server
+            document.getElementById("confirmationMessage").style.display = "block";
+        });
+    </script>
+    
 </body>
 </html>
