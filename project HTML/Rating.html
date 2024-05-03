@@ -57,12 +57,21 @@
   <span>&#9734;</span>
 </div>
 
-<form action="#" method="post">
+<form id="ratingForm" action="#" method="post">
   <textarea class="feedback" name="feedback" rows="4" placeholder="Write your feedback here..."></textarea><br>
   <div class="submit-btn-container">
     <button type="submit" class="submit-btn">Submit</button>
   </div>
 </form>
+
+<p id="thankYouMessage" style="text-align: center; display: none;">Thanks for giving rating!</p>
+
+<script>
+  document.getElementById("ratingForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    document.getElementById("thankYouMessage").style.display = "block";
+  });
+</script>
 
 </body>
 </html>
